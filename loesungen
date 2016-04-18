@@ -1,0 +1,18 @@
+Aufgabe 1.3 
+
+int, bool, char sind Typen
+a, b, c sind die Variablem
+9, false, 'a' sind die Werte
+
+const ist schreibgeschütze Variable, dieser kann kein Wert zugewiesen werden --> Fehler bei two = d
+
+Typkonvertierung von zwei int Werten in ein double, dabei gibt es keine Probleme, andersherum fallen zB. Kommastellen weg
+
+
+Aufgabe 1.4
+
+Initialisierung : Wenn eine Variable deklariert und definiert wurde kann ihr mittels der Initialisierung ein Anfangswert gesetzt werden.
+Bsp.: int a = 1; Machen wir das nicht bekommt die Variable den vorgefertigten Wert aus dem Speicherbereich.
+
+Zuweisung: Einer Variable wird ein Wert zugewiesen, das heißt ihr alter Wert bzw die Initialisierung wird überschrieben.
+Bsp.: a = 5 oder a = b 
