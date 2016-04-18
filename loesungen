@@ -16,3 +16,12 @@ Bsp.: int a = 1; Machen wir das nicht bekommt die Variable den vorgefertigten We
 
 Zuweisung: Einer Variable wird ein Wert zugewiesen, das heißt ihr alter Wert bzw die Initialisierung wird überschrieben.
 Bsp.: a = 5 oder a = b 
+
+Unterschied ist initiale Zuweisung bei der Definition bzw ein späterer Wertzuweis einer Variable.
+
+Aufgabe 1.5
+Deklaration : Hier bennen wir eine Variable sodass der Compiler diese kennt, zum Beispiel MeinVariablenName
+
+Definition : Wir weisen einer deklarierten Variable einen Speicherbereich zu, zum Beispiel int
+
+int MeinVariablenName;
