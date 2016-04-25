@@ -26,7 +26,7 @@ Definition : Wir weisen einer deklarierten Variable einen Speicherbereich zu, zu
 
 int MeinVariablenName;
 
-classb;
+class b;
 
 class c{
 public:
@@ -53,10 +53,10 @@ C++: Wurde 1979 von Bjarne Stroustrup als Erweiterung von C entwickelt.  C++ erm
 maschinennahe Programmierung als auch eine Programmierung auf hohem Abstraktionsniveau
 Quellcode: Text eines Programmes
 Compiler: Übersetzer der Programiersprache für den Computer
-Linker: Verbindung zwischen unterschiedlichen Programmen / Verlinkungen
+Linker: einzelne Programmmodule zu einem ausführbaren Programm zusammenstellen
 Objektcode: Zwischenergebnis des Compilers in Maschinencode
 Ausführbare Datei: Datei die vom System ausgeführt werden kann, bsp: .exe .bat
-Main(): in der Main Methoden werden Funktionen, Ein- und Ausgaben und Co aufgerufen
+Main(): in die Haupteinstiegsfunktion. Hier werden Funktionen, Ein- und Ausgaben und Co aufgerufen
 #include: fügt Header Dateien in das Programm ein
 Kommentar: Dient zur Beschriftung des Texts zum besseren Verständnis
 Header: Beschreibt Funktionen die nicht in der Main-Methode direkt enthalten sind, dient zur besseren Aufteilung von Code
@@ -68,14 +68,14 @@ std::cin: Befehl um Text im Terminal einzugeben
 >>: Eingabe in Combi mit cin; sonst bitshift
 Funktion: Unterprogramm mit bestimmter Aufgabe und eventuell Rückgabewerten
 Funktionssignatur: Funktionsname + Parameter + Rückgabetyp
-Deklaration: Bezeichnung von Funktion, Variablen, Klassen
-Definition: Wird vom Compiler benötigt um Speicher zu reservieren, beschreibung des Datentyps
+Deklaration: Bekanntgabe von Funktion, Variablen, Klassen
+Definition:  Eine Definition ist eine eindeutige Spezifikation eines Objekts oder einer Variable, Funktion, Klasse oder eines Enumerators
 Typ: Typ der Werte/Daten (int usw.)
 Typkonvertierung: Umwandlung von Datentypen
 Variable: Vorübergehende Reservierung von Speicherplatz für einen gewissen Zweck, Wert variabel
-Name: 
+Name: Bezeichner für Variable, Funktion oder Klasse
 Wert: Bestimmter Wert der einer Variable zugeordnet werden kann
 Initialisierung: Anweisung für den Compiler einen gewissen Wert anzulegen
 Zuweisung: Zuweisung eines Wertes zu einer Variable
-const: Eine Unveränderliche Variable
+const: Eine Unveränderliche Variable, Funktion, Parameter
 Gültigkeitsbereich: Bereich in dem eine Variable definiert ist
