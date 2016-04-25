@@ -2,6 +2,9 @@
 #include <catch.hpp>
 #include <cmath>
 
+
+const double pi = 2*acos(0.0);
+
 int gcd (int a, int b)
 {
 	//Euklidischer Algorithmus rekursiv
@@ -48,6 +51,32 @@ double fract (double a)
 	return a-abziehen;
 }
 
+double calculateVol(int radius, int hoehe)
+{
+	double Volumen = 0;
+	//Volumen = Grundfläche * Höhe
+	//Grundfläche ist gleich pi*r²
+	Volumen = pi*radius*radius*hoehe;
+	return Volumen;
+}
+
+double calculateSurface(int radius, int hoehe)
+{
+	double Surface = 0;
+	//Oberfläche = 2 * Grundfläche + Mantelfläche
+	//Grundfläche ist gleich pi*r²
+	//Mantelfläche hat den Flächeninhalt 2*pi*r*h
+	Surface = 2* pi*radius*radius + 2*pi*radius*hoehe;
+	return Surface;
+}
+
+double mileToKilometer(double a)
+{
+	double converted = 0;
+	converted = a / 0.621371;
+	return converted;
+}
+
 TEST_CASE("describe_gcd", "[gcd]")
 {
 	REQUIRE(gcd(2,4) == 2);
@@ -70,6 +99,23 @@ TEST_CASE("describe_fract", "[fract]")
 {
 	REQUIRE(fract(5.23) == Approx(0.23));
 	REQUIRE(fract(15.42) == Approx(0.42));
+}
+
+TEST_CASE("describe_calculateVol","[calculateVol]")
+{
+	REQUIRE(calculateVol(3,2) == Approx(18*pi));
+	REQUIRE(calculateVol(4,2) == 32*pi);
+}
+
+TEST_CASE("describe_calculateSurface","[calculateSurface]")
+{
+	REQUIRE(calculateSurface(4,2) == 48*pi);
+}
+
+TEST_CASE("describe_mileToKilometer","[mileToKilometer]")
+{
+	REQUIRE(mileToKilometer(42) == Approx(67.5924));
+	REQUIRE(mileToKilometer(24) == Approx(38.6243));
 }
 
 int main(int argc, char* argv[])
