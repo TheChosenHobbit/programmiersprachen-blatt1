@@ -45,3 +45,36 @@ var ist überall gültig
 a und b nur in der funktion sum
 Zweites var innerhalb von square
 i innerhalb der for- schleife
+
+
+Aufgabe 1.13
+C++: Wurde 1979 von Bjarne Stroustrup als Erweiterung von C entwickelt.  C++ ermöglicht sowohl die effiziente und 
+maschinennahe Programmierung als auch eine Programmierung auf hohem Abstraktionsniveau
+Quellcode: Text eines Programmes
+Compiler: Übersetzer der Programiersprache für den Computer
+Linker: Verbindung zwischen unterschiedlichen Programmen / Verlinkungen
+Objektcode: Zwischenergebnis des Compilers in Maschinencode
+Ausführbare Datei: Datei die vom System ausgeführt werden kann, bsp: .exe .bat
+Main(): in der Main Methoden werden Funktionen, Ein- und Ausgaben und Co aufgerufen
+#include: fügt Header Dateien in das Programm ein
+Kommentar: Dient zur Beschriftung des Texts zum besseren Verständnis
+Header: Beschreibt Funktionen die nicht in der Main-Methode direkt enthalten sind, dient zur besseren Aufteilung von Code
+Programm: Bestimmte Handlungsanweisungen, die vom Computer ausgeführt werden sollen
+Ausgabe: Unterschiedliche Arten von Rückgaben
+std::cout: Befehl um Text auf dem Terminal auszugeben
+std::cin: Befehl um Text im Terminal einzugeben
+<<: Ausgabe in Combi mit cout; sonst bitshift
+>>: Eingabe in Combi mit cin; sonst bitshift
+Funktion: Unterprogramm mit bestimmter Aufgabe und eventuell Rückgabewerten
+Funktionssignatur: Funktionsname + Parameter + Rückgabetyp
+Deklaration: Bezeichnung von Funktion, Variablen, Klassen
+Definition: Wird vom Compiler benötigt um Speicher zu reservieren, beschreibung des Datentyps
+Typ: Typ der Werte/Daten (int usw.)
+Typkonvertierung: Umwandlung von Datentypen
+Variable: Vorübergehende Reservierung von Speicherplatz für einen gewissen Zweck, Wert variabel
+Name: 
+Wert: Bestimmter Wert der einer Variable zugeordnet werden kann
+Initialisierung: Anweisung für den Compiler einen gewissen Wert anzulegen
+Zuweisung: Zuweisung eines Wertes zu einer Variable
+const: Eine Unveränderliche Variable
+Gültigkeitsbereich: Bereich in dem eine Variable definiert ist
