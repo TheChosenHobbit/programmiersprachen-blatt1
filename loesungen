@@ -35,9 +35,10 @@ Testklasse();
 
 
 int eineFunktion(intx=42);
-int c::eineFunktion(int x){
+
+int eineFunktion(int x){
 //Code
-};
+}
 
 1.6
 Signatur ist Name der Funktion und die Parameter
